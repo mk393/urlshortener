@@ -7,6 +7,7 @@ Rails.application.routes.draw do
             post 'urls' => 'urls#create'
             put 'urls' => 'urls#update'
             patch  'urls' => 'urls#update'
+
         end
     end
 
